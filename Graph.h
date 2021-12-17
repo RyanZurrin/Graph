@@ -32,6 +32,8 @@ void connect(graph*, int, int, int);
 edge_node* get_neighbors(graph*, int);
 //add edge to the graph
 edge_node* add_edge(edge_node*, int, int, int);
+// remove edge from the graph
+edge_node* remove_edge(edge_node*, int);
 // boolean to check if the graph is connected
 bool is_connected(graph*);
 // determine if two nodes are adjacent
