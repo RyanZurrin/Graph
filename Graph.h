@@ -41,7 +41,7 @@ bool adjacentTo(graph*, int, int);
 // union of two sets
 void union_set(graph*, int*, int, int);
 // find if a value is in a set
-bool find(int*, int);
+bool find(const int*, int);
 // get the weight of the edge u to v
 int get_weight(graph*, int, int);
 // get the number of nodes in the graph
@@ -58,7 +58,6 @@ void dfs(graph*, int);
 // bfs traversal of the graph
 void bfs(graph*, int);
 // find if u is the set of pInt
-bool find(int *pInt, int u);
 // count the number of connected components in the graph
 int count_connected_components(graph*);
 // count number of paths between u and v
